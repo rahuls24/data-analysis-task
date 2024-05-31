@@ -1,0 +1,8 @@
+.full-height-grid {
+	height: 95vh;
+}
+
+.half-height-col {
+	height: 47vh;
+	overflow-y: auto;
+}

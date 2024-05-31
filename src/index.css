@@ -1,3 +1,10 @@
+/* Reset margin and padding for all elements */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 body {
 	margin: 0;
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
@@ -5,4 +12,18 @@ body {
 		'Helvetica Neue', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
+
+/*  Utility class */
+
+.center-title {
+	display: flex;
+	justify-content: center;
+}
+
+.p-4 {
+	padding: 1rem;
+}
+.pb-4 {
+	padding-bottom: 1rem !important;
 }
